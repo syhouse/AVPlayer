@@ -10,8 +10,7 @@
 #import "SYPlayerController.h"
 
 #import "SYMusicPalyManager.h"
-
-#define url @"http://other.web.ra01.sycdn.kuwo.cn/resource/n3/128/17/55/3616442357.mp3"
+#import "SYMusicModel.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tabelView;
@@ -48,20 +47,29 @@
     switch (index) {
         case 0:
         {
-            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithUrl:url delegate:controller autoPlay:YES];
+            SYMusicModel *song = [[SYMusicModel alloc] init];
+            song.url = [NSURL URLWithString:@"http://cdn.y.baidu.com/43c48318c093c9277ea5b66ca163c5d6.mp3"];
+            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithSong:song delegate:controller autoPlay:YES];
         }
             break;
             
         case 1:
         {
-            NSString *filePath = [[NSBundle mainBundle] pathForResource:@"曲婉婷 - Jar Of Love" ofType:@"mp3"];
-            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithFilePath:filePath delegate:controller autoPlay:NO];
+            SYMusicModel *song = [[SYMusicModel alloc] init];
+            song.url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"120125029" ofType:@"mp3"]];
+            song.lrcPath = [[NSBundle mainBundle] pathForResource:@"120125029" ofType:@"lrc"];
+            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithSong:song delegate:controller autoPlay:YES];
             break;
         }
         case 2:
         {
-            NSArray *urls = @[@"http://service1.gzebook.cn/upload/listen/mp3/xc/grade5-2-module1.mp3",@"http://service1.gzebook.cn/upload/listen/mp3/grade7-1-unit2.mp3",@"http://service1.gzebook.cn/upload/listen/mp3/grade9-1-unit2-dy.mp3"];
-            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithUrls:urls delegate:controller autoPlay:YES];
+            SYMusicModel *song1 = [[SYMusicModel alloc] init];
+            song1.url = [NSURL URLWithString:@"http://service1.gzebook.cn/upload/listen/mp3/xc/grade5-2-module1.mp3"];
+            SYMusicModel *song2 = [[SYMusicModel alloc] init];
+            song2.url = [NSURL URLWithString:@"http://service1.gzebook.cn/upload/listen/mp3/grade7-1-unit2.mp3"];
+            SYMusicModel *song3 = [[SYMusicModel alloc] init];
+            song3.url = [NSURL URLWithString:@"http://service1.gzebook.cn/upload/listen/mp3/grade9-1-unit2-dy.mp3"];
+            [[SYMusicPalyManager shareSYMusicPalyManager] prepareToPlayMusicWithSongs:@[song1,song2,song3] delegate:controller autoPlay:YES];
         }
             
         default:

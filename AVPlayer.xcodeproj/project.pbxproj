@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6F7FAEEE1FDECC8F00BCD8E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7FAEED1FDECC8F00BCD8E4 /* Images.xcassets */; };
+		9AC93BF91FE37DA900B5469D /* Beyond - 海阔天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9AC93BF81FE37DA900B5469D /* Beyond - 海阔天空.mp3 */; };
+		9AC93BFF1FE37EF200B5469D /* SYLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93BFE1FE37EF200B5469D /* SYLrcModel.m */; };
+		9AC93C021FE37F5400B5469D /* SYLrcDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C011FE37F5400B5469D /* SYLrcDataTool.m */; };
+		9AC93C051FE3806D00B5469D /* SYTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C041FE3806D00B5469D /* SYTimeTool.m */; };
+		9AC93C081FE3813500B5469D /* SYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C071FE3813500B5469D /* SYMusicModel.m */; };
+		9AC93C0B1FE39A3400B5469D /* SYLrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C0A1FE39A3400B5469D /* SYLrcViewController.m */; };
+		9AC93C0E1FE39AF200B5469D /* SYLrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C0D1FE39AF200B5469D /* SYLrcLabel.m */; };
+		9AC93C111FE39B2C00B5469D /* SYLrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C101FE39B2C00B5469D /* SYLrcCell.m */; };
+		9AC93C141FE3A6EF00B5469D /* SYMusicMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC93C131FE3A6EF00B5469D /* SYMusicMessageModel.m */; };
+		9AC93C181FE3B40B00B5469D /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9AC93C171FE3B40B00B5469D /* 120125029.mp3 */; };
+		9AC93C1A1FE3B42300B5469D /* 120125029.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9AC93C191FE3B42300B5469D /* 120125029.lrc */; };
 		9ADB2E9A1FDE31560011FAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB2E991FDE31560011FAE9 /* AppDelegate.m */; };
 		9ADB2E9D1FDE31560011FAE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB2E9C1FDE31560011FAE9 /* ViewController.m */; };
 		9ADB2EA21FDE31560011FAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB2EA11FDE31560011FAE9 /* Assets.xcassets */; };
@@ -40,6 +51,25 @@
 /* Begin PBXFileReference section */
 		6F7FAEED1FDECC8F00BCD8E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AEAC9AF0F5F06537AFFF52C /* Pods-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		9AC93BF81FE37DA900B5469D /* Beyond - 海阔天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beyond - 海阔天空.mp3"; sourceTree = "<group>"; };
+		9AC93BFD1FE37EF200B5469D /* SYLrcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLrcModel.h; sourceTree = "<group>"; };
+		9AC93BFE1FE37EF200B5469D /* SYLrcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYLrcModel.m; sourceTree = "<group>"; };
+		9AC93C001FE37F5400B5469D /* SYLrcDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLrcDataTool.h; sourceTree = "<group>"; };
+		9AC93C011FE37F5400B5469D /* SYLrcDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYLrcDataTool.m; sourceTree = "<group>"; };
+		9AC93C031FE3806D00B5469D /* SYTimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTimeTool.h; sourceTree = "<group>"; };
+		9AC93C041FE3806D00B5469D /* SYTimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTimeTool.m; sourceTree = "<group>"; };
+		9AC93C061FE3813500B5469D /* SYMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMusicModel.h; sourceTree = "<group>"; };
+		9AC93C071FE3813500B5469D /* SYMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMusicModel.m; sourceTree = "<group>"; };
+		9AC93C091FE39A3400B5469D /* SYLrcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLrcViewController.h; sourceTree = "<group>"; };
+		9AC93C0A1FE39A3400B5469D /* SYLrcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYLrcViewController.m; sourceTree = "<group>"; };
+		9AC93C0C1FE39AF200B5469D /* SYLrcLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLrcLabel.h; sourceTree = "<group>"; };
+		9AC93C0D1FE39AF200B5469D /* SYLrcLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYLrcLabel.m; sourceTree = "<group>"; };
+		9AC93C0F1FE39B2C00B5469D /* SYLrcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYLrcCell.h; sourceTree = "<group>"; };
+		9AC93C101FE39B2C00B5469D /* SYLrcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYLrcCell.m; sourceTree = "<group>"; };
+		9AC93C121FE3A6EF00B5469D /* SYMusicMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMusicMessageModel.h; sourceTree = "<group>"; };
+		9AC93C131FE3A6EF00B5469D /* SYMusicMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMusicMessageModel.m; sourceTree = "<group>"; };
+		9AC93C171FE3B40B00B5469D /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
+		9AC93C191FE3B42300B5469D /* 120125029.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 120125029.lrc; sourceTree = "<group>"; };
 		9ADB2E951FDE31560011FAE9 /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADB2E981FDE31560011FAE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ADB2E991FDE31560011FAE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +125,54 @@
 				A2E97989D27D40F88CBC3220 /* libPods-AVPlayer.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AC93BFC1FE37EC300B5469D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC93BFD1FE37EF200B5469D /* SYLrcModel.h */,
+				9AC93BFE1FE37EF200B5469D /* SYLrcModel.m */,
+				9AC93C061FE3813500B5469D /* SYMusicModel.h */,
+				9AC93C071FE3813500B5469D /* SYMusicModel.m */,
+				9AC93C121FE3A6EF00B5469D /* SYMusicMessageModel.h */,
+				9AC93C131FE3A6EF00B5469D /* SYMusicMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AC93C1B1FE3BAF700B5469D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9ADB2ECF1FDE31C40011FAE9 /* SYPlayerController.h */,
+				9ADB2ECE1FDE31C40011FAE9 /* SYPlayerController.m */,
+				9AC93C091FE39A3400B5469D /* SYLrcViewController.h */,
+				9AC93C0A1FE39A3400B5469D /* SYLrcViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9AC93C1C1FE3BB0900B5469D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC93C0C1FE39AF200B5469D /* SYLrcLabel.h */,
+				9AC93C0D1FE39AF200B5469D /* SYLrcLabel.m */,
+				9AC93C0F1FE39B2C00B5469D /* SYLrcCell.h */,
+				9AC93C101FE39B2C00B5469D /* SYLrcCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AC93C1D1FE3BB1E00B5469D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9ADB2ED11FDE31C40011FAE9 /* SYMusicPalyManager.h */,
+				9ADB2ED01FDE31C40011FAE9 /* SYMusicPalyManager.m */,
+				9AC93C031FE3806D00B5469D /* SYTimeTool.h */,
+				9AC93C041FE3806D00B5469D /* SYTimeTool.m */,
+				9AC93C001FE37F5400B5469D /* SYLrcDataTool.h */,
+				9AC93C011FE37F5400B5469D /* SYLrcDataTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		9ADB2E8C1FDE31560011FAE9 = {
@@ -157,7 +235,10 @@
 		9ADB2ECA1FDE316D0011FAE9 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				9AC93BF81FE37DA900B5469D /* Beyond - 海阔天空.mp3 */,
 				9ADB2ECB1FDE317D0011FAE9 /* 曲婉婷 - Jar Of Love.mp3 */,
+				9AC93C171FE3B40B00B5469D /* 120125029.mp3 */,
+				9AC93C191FE3B42300B5469D /* 120125029.lrc */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -165,10 +246,10 @@
 		9ADB2ECD1FDE31A20011FAE9 /* AVPlayerClass */ = {
 			isa = PBXGroup;
 			children = (
-				9ADB2ED11FDE31C40011FAE9 /* SYMusicPalyManager.h */,
-				9ADB2ED01FDE31C40011FAE9 /* SYMusicPalyManager.m */,
-				9ADB2ECF1FDE31C40011FAE9 /* SYPlayerController.h */,
-				9ADB2ECE1FDE31C40011FAE9 /* SYPlayerController.m */,
+				9AC93C1D1FE3BB1E00B5469D /* Tool */,
+				9AC93C1C1FE3BB0900B5469D /* View */,
+				9AC93C1B1FE3BAF700B5469D /* controller */,
+				9AC93BFC1FE37EC300B5469D /* Model */,
 			);
 			path = AVPlayerClass;
 			sourceTree = "<group>";
@@ -293,7 +374,10 @@
 			files = (
 				6F7FAEEE1FDECC8F00BCD8E4 /* Images.xcassets in Resources */,
 				9ADB2EA21FDE31560011FAE9 /* Assets.xcassets in Resources */,
+				9AC93C1A1FE3B42300B5469D /* 120125029.lrc in Resources */,
 				9ADB2ECC1FDE317D0011FAE9 /* 曲婉婷 - Jar Of Love.mp3 in Resources */,
+				9AC93BF91FE37DA900B5469D /* Beyond - 海阔天空.mp3 in Resources */,
+				9AC93C181FE3B40B00B5469D /* 120125029.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,11 +453,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC93C051FE3806D00B5469D /* SYTimeTool.m in Sources */,
+				9AC93C081FE3813500B5469D /* SYMusicModel.m in Sources */,
+				9AC93C021FE37F5400B5469D /* SYLrcDataTool.m in Sources */,
 				9ADB2ED31FDE31C40011FAE9 /* SYMusicPalyManager.m in Sources */,
 				9ADB2ED21FDE31C40011FAE9 /* SYPlayerController.m in Sources */,
+				9AC93C141FE3A6EF00B5469D /* SYMusicMessageModel.m in Sources */,
+				9AC93C0E1FE39AF200B5469D /* SYLrcLabel.m in Sources */,
 				9ADB2E9D1FDE31560011FAE9 /* ViewController.m in Sources */,
+				9AC93C111FE39B2C00B5469D /* SYLrcCell.m in Sources */,
 				9ADB2EA81FDE31560011FAE9 /* main.m in Sources */,
 				9ADB2E9A1FDE31560011FAE9 /* AppDelegate.m in Sources */,
+				9AC93C0B1FE39A3400B5469D /* SYLrcViewController.m in Sources */,
+				9AC93BFF1FE37EF200B5469D /* SYLrcModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,13 +613,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M8XP36M3H8;
 				INFOPLIST_FILE = AVPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sy-mac.AVPlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "0023ca7f-c144-4962-b036-01bb1376cfbf";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_Devlopment;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
