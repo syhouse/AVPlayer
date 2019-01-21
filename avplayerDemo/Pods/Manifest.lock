@@ -1,0 +1,23 @@
+PODS:
+  - PureLayout (3.0.2)
+  - SYAVPlayer (1.0.0):
+    - PureLayout
+
+DEPENDENCIES:
+  - SYAVPlayer (from `./`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+
+EXTERNAL SOURCES:
+  SYAVPlayer:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SYAVPlayer: 1f818699bffc6eb84a482f20f45e278c77c3d26a
+
+PODFILE CHECKSUM: 087ab678183f8adfe115d0d542034ca507b0abd4
+
+COCOAPODS: 1.5.3

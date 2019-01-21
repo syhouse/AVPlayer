@@ -1,0 +1,4 @@
+
+target 'AVPlayer' do
+pod 'SYAVPlayer', :path => './'
+end

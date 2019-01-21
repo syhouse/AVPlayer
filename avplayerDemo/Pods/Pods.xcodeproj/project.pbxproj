@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0027AAF0C0EC034168059DEB42BA5140 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F1BC0F7B7A2F0E254C63B007131F513 /* SYMusicPalyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6E32C7E731B3555487362A0CFE88E8 /* SYMusicPalyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19ACE0619EA3BA595EC41F2AEF992EE3 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EF5233ECD28B4903522BF72FF0A98EC /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */; };
+		35BE375FCCDBEA19936E380B0CFF6C09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEE77C30CADE29D0363F1A36F5E98E4 /* AVFoundation.framework */; };
+		3DC374E7544B8ADA2EAC8B08882F224F /* SYLrcViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD320E5A75C117879B9BD87050DF2518 /* SYLrcViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B025CC168C32C2514A15BB42A90D15D /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		556B7D3D10AFEA0B09FAE8541C5457E3 /* SYMusicMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B9C41DC7E8343DE6BA327FBD40AC3 /* SYMusicMessageModel.m */; };
+		568A06E534661396D072ED906D037960 /* SYLrcModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5023BA62B0864C9019E5902619FEEB81 /* SYLrcModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71CD957624B82C01EF2FB6F7FFAA442B /* SYMusicPalyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA02CAE29876D862DC75A31D1FE53475 /* SYMusicPalyManager.m */; };
+		75BBB1660AA254EEFCBDE9BB69B9D8AA /* SYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 593CA19C62BCD4E58DB3F303B5E503C4 /* SYMusicModel.m */; };
+		76520E7864BACCA096FCECE950F99662 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C9DD1C96B95B9B95EF91CD6304A7A04 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */; };
+		8B2AFA2536A63EED74125B3B914CC336 /* SYPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C91D621BB344F4E3A79381ED501E59 /* SYPlayerController.m */; };
+		92BDABA94F974B962123BF4F219FFACC /* SYTimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3F36D6A9EF649710ECB3E3A1AAEAAA /* SYTimeTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ADDC378AA7CEBA6DE3E152FABD37ECF /* SYTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036E6ECC10B5997D859545DCAB265A7 /* SYTimeTool.m */; };
+		AA32D89A466608846CB832D0DFA75144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA12E98CA9F3F0E6B3E8B17E0B954C58 /* UIKit.framework */; };
+		ABF4469A212A0BC4D525444967EA0798 /* SYLrcDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A1A4330BE1FF202DB56999ED8C2594 /* SYLrcDataTool.m */; };
+		AC5C4163F2B6BC5C1381329AC084AEBC /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */; };
+		B047A247F5267D98341537798378303C /* Pods-AVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A500877BF03E4BADB9671484CF962F8B /* Pods-AVPlayer-dummy.m */; };
+		B279F7DAEACE1436890B3CB2143DFC4B /* SYLrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA229B343B44058C508F4372DDE5BA9E /* SYLrcViewController.m */; };
+		B7103FBCFF687284A71383F15A7DBABF /* SYLrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E9E15B03A07067DA3BB5B9B2B556C3 /* SYLrcModel.m */; };
+		BC460ED6716484071DCA85A048194957 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF6B4AFF269541333AAE78D1FB5AAA5F /* SYMusicMessageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F04EB75BF1E9F1854428590CBAC1432 /* SYMusicMessageModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1070267A90004BD919EE97C7942B71B /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */; };
+		EAB34DA0689B515A68EBB2F4E0F729BF /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F188EC4141ADF90BD79DE9B94FF2833F /* SYAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B32F498DC9BE5010599808EF0CBB2B3 /* SYAVPlayer-dummy.m */; };
+		F892E64ED78B49FD9C11E03C68D6266D /* SYMusicModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB1321D94D930E3F7F4886B9F05DB30 /* SYMusicModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8A1C57472A904A407FF7E7546189CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BF5E9D68EAC528D8EBCD934CA1A933 /* Foundation.framework */; };
+		F95FD458D73BD7FB686CE9EEA8DC8BF0 /* SYPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52146CB0C1D3AA68798F9B4365C63DD3 /* SYPlayerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDF22812B485B364D3D6E47AB9595900 /* SYLrcDataTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A90DFFF34551D9634F09C5AFE6D7E70F /* SYLrcDataTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3815D860EB864619977A2CE1561A84FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6A264B759143E1E9714F91B2467C89;
+			remoteInfo = PureLayout;
+		};
+		CFB47D617F55D84020B6753C60E3FB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB7F126C765A3D49C246BBD5F91F949;
+			remoteInfo = SYAVPlayer;
+		};
+		F8C8EE2940936B486BDA5C4F6FEC602D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6A264B759143E1E9714F91B2467C89;
+			remoteInfo = PureLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F04EB75BF1E9F1854428590CBAC1432 /* SYMusicMessageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYMusicMessageModel.h; path = SYAVPlayer/SYMusicMessageModel.h; sourceTree = "<group>"; };
+		129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		283B9C41DC7E8343DE6BA327FBD40AC3 /* SYMusicMessageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYMusicMessageModel.m; path = SYAVPlayer/SYMusicMessageModel.m; sourceTree = "<group>"; };
+		41E9E15B03A07067DA3BB5B9B2B556C3 /* SYLrcModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYLrcModel.m; path = SYAVPlayer/SYLrcModel.m; sourceTree = "<group>"; };
+		45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		4627FF7B4F3B02DF36A5BAB256AB3C76 /* SYAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYAVPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5023BA62B0864C9019E5902619FEEB81 /* SYLrcModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYLrcModel.h; path = SYAVPlayer/SYLrcModel.h; sourceTree = "<group>"; };
+		5036E6ECC10B5997D859545DCAB265A7 /* SYTimeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYTimeTool.m; path = SYAVPlayer/SYTimeTool.m; sourceTree = "<group>"; };
+		52146CB0C1D3AA68798F9B4365C63DD3 /* SYPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYPlayerController.h; path = SYAVPlayer/SYPlayerController.h; sourceTree = "<group>"; };
+		57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		593CA19C62BCD4E58DB3F303B5E503C4 /* SYMusicModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYMusicModel.m; path = SYAVPlayer/SYMusicModel.m; sourceTree = "<group>"; };
+		5F3F36D6A9EF649710ECB3E3A1AAEAAA /* SYTimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYTimeTool.h; path = SYAVPlayer/SYTimeTool.h; sourceTree = "<group>"; };
+		5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		64201ADC9C20C0683ADD754669ECB3B4 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPureLayout.a; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F5DC8CEF1041A86BE3FA37EE6459E3 /* Pods-AVPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVPlayer-resources.sh"; sourceTree = "<group>"; };
+		6C47453D000214E4D369FC19C6D2FD39 /* Pods-AVPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FEE77C30CADE29D0363F1A36F5E98E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		8B04F61760B498496A33881BC61334C1 /* Pods-AVPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B32F498DC9BE5010599808EF0CBB2B3 /* SYAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYAVPlayer-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A1A4330BE1FF202DB56999ED8C2594 /* SYLrcDataTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYLrcDataTool.m; path = SYAVPlayer/SYLrcDataTool.m; sourceTree = "<group>"; };
+		A500877BF03E4BADB9671484CF962F8B /* Pods-AVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVPlayer-dummy.m"; sourceTree = "<group>"; };
+		A90DFFF34551D9634F09C5AFE6D7E70F /* SYLrcDataTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYLrcDataTool.h; path = SYAVPlayer/SYLrcDataTool.h; sourceTree = "<group>"; };
+		ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		ADD7EEFB6B401DAAC9A087363B604FD8 /* Pods-AVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C91D621BB344F4E3A79381ED501E59 /* SYPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYPlayerController.m; path = SYAVPlayer/SYPlayerController.m; sourceTree = "<group>"; };
+		B3D0A1C70618074C5474B7946043CA06 /* SYAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYAVPlayer-prefix.pch"; sourceTree = "<group>"; };
+		BA02CAE29876D862DC75A31D1FE53475 /* SYMusicPalyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYMusicPalyManager.m; path = SYAVPlayer/SYMusicPalyManager.m; sourceTree = "<group>"; };
+		BA6E32C7E731B3555487362A0CFE88E8 /* SYMusicPalyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYMusicPalyManager.h; path = SYAVPlayer/SYMusicPalyManager.h; sourceTree = "<group>"; };
+		C2D566FFA0B24CE7062066E30D53CBAB /* SYAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYAVPlayer.xcconfig; sourceTree = "<group>"; };
+		CA229B343B44058C508F4372DDE5BA9E /* SYLrcViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYLrcViewController.m; path = SYAVPlayer/SYLrcViewController.m; sourceTree = "<group>"; };
+		CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		DF7496580664A99BE43186E03789FBDF /* libSYAVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSYAVPlayer.a; path = libSYAVPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E246493AC4B3D1A947F93E0D837821D2 /* Pods-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		E2F9C836FC64B0378D3B18821EEBA04F /* libPods-AVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AVPlayer.a"; path = "libPods-AVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		E940A4AF7B29EEF94B9D7E3E437DD4D1 /* Pods-AVPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		EA12E98CA9F3F0E6B3E8B17E0B954C58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFB1321D94D930E3F7F4886B9F05DB30 /* SYMusicModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYMusicModel.h; path = SYAVPlayer/SYMusicModel.h; sourceTree = "<group>"; };
+		F2BF5E9D68EAC528D8EBCD934CA1A933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FD320E5A75C117879B9BD87050DF2518 /* SYLrcViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYLrcViewController.h; path = SYAVPlayer/SYLrcViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF3287678B706337B37EAC394C8E935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0C73AE0E5A2D86C3A9D67C3805E44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D3B6E5C65D58A2435932B36B4BA0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BE375FCCDBEA19936E380B0CFF6C09 /* AVFoundation.framework in Frameworks */,
+				F8A1C57472A904A407FF7E7546189CB4 /* Foundation.framework in Frameworks */,
+				AA32D89A466608846CB832D0DFA75144 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEF6AE21748EEF05BDF013C1F96152B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FEE77C30CADE29D0363F1A36F5E98E4 /* AVFoundation.framework */,
+				F2BF5E9D68EAC528D8EBCD934CA1A933 /* Foundation.framework */,
+				EA12E98CA9F3F0E6B3E8B17E0B954C58 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF6AE21748EEF05BDF013C1F96152B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A789D14E5306ED51C689FC7FCCE2D9 /* SYAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A90DFFF34551D9634F09C5AFE6D7E70F /* SYLrcDataTool.h */,
+				A2A1A4330BE1FF202DB56999ED8C2594 /* SYLrcDataTool.m */,
+				5023BA62B0864C9019E5902619FEEB81 /* SYLrcModel.h */,
+				41E9E15B03A07067DA3BB5B9B2B556C3 /* SYLrcModel.m */,
+				FD320E5A75C117879B9BD87050DF2518 /* SYLrcViewController.h */,
+				CA229B343B44058C508F4372DDE5BA9E /* SYLrcViewController.m */,
+				0F04EB75BF1E9F1854428590CBAC1432 /* SYMusicMessageModel.h */,
+				283B9C41DC7E8343DE6BA327FBD40AC3 /* SYMusicMessageModel.m */,
+				EFB1321D94D930E3F7F4886B9F05DB30 /* SYMusicModel.h */,
+				593CA19C62BCD4E58DB3F303B5E503C4 /* SYMusicModel.m */,
+				BA6E32C7E731B3555487362A0CFE88E8 /* SYMusicPalyManager.h */,
+				BA02CAE29876D862DC75A31D1FE53475 /* SYMusicPalyManager.m */,
+				52146CB0C1D3AA68798F9B4365C63DD3 /* SYPlayerController.h */,
+				B0C91D621BB344F4E3A79381ED501E59 /* SYPlayerController.m */,
+				5F3F36D6A9EF649710ECB3E3A1AAEAAA /* SYTimeTool.h */,
+				5036E6ECC10B5997D859545DCAB265A7 /* SYTimeTool.m */,
+				3C304CCC2C4253AC1E2B988CDDE68804 /* Pod */,
+				391565C86BD3064FDA04EEA09AD2F65D /* Support Files */,
+			);
+			name = SYAVPlayer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2B2CB0719B14CAAE8DF8A264408B36B1 /* Pods-AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8B04F61760B498496A33881BC61334C1 /* Pods-AVPlayer-acknowledgements.markdown */,
+				6C47453D000214E4D369FC19C6D2FD39 /* Pods-AVPlayer-acknowledgements.plist */,
+				A500877BF03E4BADB9671484CF962F8B /* Pods-AVPlayer-dummy.m */,
+				E940A4AF7B29EEF94B9D7E3E437DD4D1 /* Pods-AVPlayer-frameworks.sh */,
+				67F5DC8CEF1041A86BE3FA37EE6459E3 /* Pods-AVPlayer-resources.sh */,
+				ADD7EEFB6B401DAAC9A087363B604FD8 /* Pods-AVPlayer.debug.xcconfig */,
+				E246493AC4B3D1A947F93E0D837821D2 /* Pods-AVPlayer.release.xcconfig */,
+			);
+			name = "Pods-AVPlayer";
+			path = "Target Support Files/Pods-AVPlayer";
+			sourceTree = "<group>";
+		};
+		391565C86BD3064FDA04EEA09AD2F65D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D566FFA0B24CE7062066E30D53CBAB /* SYAVPlayer.xcconfig */,
+				8B32F498DC9BE5010599808EF0CBB2B3 /* SYAVPlayer-dummy.m */,
+				B3D0A1C70618074C5474B7946043CA06 /* SYAVPlayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SYAVPlayer";
+			sourceTree = "<group>";
+		};
+		3C304CCC2C4253AC1E2B988CDDE68804 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4627FF7B4F3B02DF36A5BAB256AB3C76 /* SYAVPlayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D7E50288E09BF358901B65D8CB2BBA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A789D14E5306ED51C689FC7FCCE2D9 /* SYAVPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		702699D292C8196BB36260F290E8FECD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CB0719B14CAAE8DF8A264408B36B1 /* Pods-AVPlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4D7E50288E09BF358901B65D8CB2BBA5 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				939824E532F5E31F327F95F1EC588F77 /* Products */,
+				702699D292C8196BB36260F290E8FECD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83F65399C3808A743CC1392CF12DD692 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */,
+				CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */,
+				129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		939824E532F5E31F327F95F1EC588F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9C836FC64B0378D3B18821EEBA04F /* libPods-AVPlayer.a */,
+				64201ADC9C20C0683ADD754669ECB3B4 /* libPureLayout.a */,
+				DF7496580664A99BE43186E03789FBDF /* libSYAVPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB198DB8875A98298498BA74D26897FE /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB198DB8875A98298498BA74D26897FE /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */,
+				5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */,
+				7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */,
+				873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */,
+				E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */,
+				F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */,
+				57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */,
+				D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */,
+				ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */,
+				83F65399C3808A743CC1392CF12DD692 /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B140DA7A9D0DE480A931001F8A5A030D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B025CC168C32C2514A15BB42A90D15D /* ALView+PureLayout.h in Headers */,
+				0027AAF0C0EC034168059DEB42BA5140 /* NSArray+PureLayout.h in Headers */,
+				19ACE0619EA3BA595EC41F2AEF992EE3 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				EAB34DA0689B515A68EBB2F4E0F729BF /* PureLayout+Internal.h in Headers */,
+				BC460ED6716484071DCA85A048194957 /* PureLayout.h in Headers */,
+				76520E7864BACCA096FCECE950F99662 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CFA624BDCE1141D71EEE9C30EC2614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF22812B485B364D3D6E47AB9595900 /* SYLrcDataTool.h in Headers */,
+				568A06E534661396D072ED906D037960 /* SYLrcModel.h in Headers */,
+				3DC374E7544B8ADA2EAC8B08882F224F /* SYLrcViewController.h in Headers */,
+				BF6B4AFF269541333AAE78D1FB5AAA5F /* SYMusicMessageModel.h in Headers */,
+				F892E64ED78B49FD9C11E03C68D6266D /* SYMusicModel.h in Headers */,
+				0F1BC0F7B7A2F0E254C63B007131F513 /* SYMusicPalyManager.h in Headers */,
+				F95FD458D73BD7FB686CE9EEA8DC8BF0 /* SYPlayerController.h in Headers */,
+				92BDABA94F974B962123BF4F219FFACC /* SYTimeTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B6A264B759143E1E9714F91B2467C89 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAE291F493EE5379FFE6850FD38D0F4 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				598CF36E276D40B85FB3D0C189939B56 /* Sources */,
+				7DF3287678B706337B37EAC394C8E935 /* Frameworks */,
+				B140DA7A9D0DE480A931001F8A5A030D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 64201ADC9C20C0683ADD754669ECB3B4 /* libPureLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CF86F5C7712C5347BE1AFE87621C07D /* Pods-AVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7E2383D7D05900B040AE620622A005 /* Build configuration list for PBXNativeTarget "Pods-AVPlayer" */;
+			buildPhases = (
+				CE8CFF95BDB6125B39E8E19A6DAAE7F8 /* Sources */,
+				7E0C73AE0E5A2D86C3A9D67C3805E44D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0736571A5CDEA70F304B7E3657EC73 /* PBXTargetDependency */,
+				02895914E50B0D6262C2593ADA28F80F /* PBXTargetDependency */,
+			);
+			name = "Pods-AVPlayer";
+			productName = "Pods-AVPlayer";
+			productReference = E2F9C836FC64B0378D3B18821EEBA04F /* libPods-AVPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBB7F126C765A3D49C246BBD5F91F949 /* SYAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5445161A4BFAB6771151C6804A8F3EA /* Build configuration list for PBXNativeTarget "SYAVPlayer" */;
+			buildPhases = (
+				0FA2D40E512A7FA051A976F4362DFFE7 /* Sources */,
+				B7D3B6E5C65D58A2435932B36B4BA0EC /* Frameworks */,
+				F3CFA624BDCE1141D71EEE9C30EC2614 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348205CEF66E3D4B2F7A84B12E716A1A /* PBXTargetDependency */,
+			);
+			name = SYAVPlayer;
+			productName = SYAVPlayer;
+			productReference = DF7496580664A99BE43186E03789FBDF /* libSYAVPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 939824E532F5E31F327F95F1EC588F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF86F5C7712C5347BE1AFE87621C07D /* Pods-AVPlayer */,
+				0B6A264B759143E1E9714F91B2467C89 /* PureLayout */,
+				CBB7F126C765A3D49C246BBD5F91F949 /* SYAVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA2D40E512A7FA051A976F4362DFFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F188EC4141ADF90BD79DE9B94FF2833F /* SYAVPlayer-dummy.m in Sources */,
+				ABF4469A212A0BC4D525444967EA0798 /* SYLrcDataTool.m in Sources */,
+				B7103FBCFF687284A71383F15A7DBABF /* SYLrcModel.m in Sources */,
+				B279F7DAEACE1436890B3CB2143DFC4B /* SYLrcViewController.m in Sources */,
+				556B7D3D10AFEA0B09FAE8541C5457E3 /* SYMusicMessageModel.m in Sources */,
+				75BBB1660AA254EEFCBDE9BB69B9D8AA /* SYMusicModel.m in Sources */,
+				71CD957624B82C01EF2FB6F7FFAA442B /* SYMusicPalyManager.m in Sources */,
+				8B2AFA2536A63EED74125B3B914CC336 /* SYPlayerController.m in Sources */,
+				9ADDC378AA7CEBA6DE3E152FABD37ECF /* SYTimeTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598CF36E276D40B85FB3D0C189939B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1070267A90004BD919EE97C7942B71B /* ALView+PureLayout.m in Sources */,
+				AC5C4163F2B6BC5C1381329AC084AEBC /* NSArray+PureLayout.m in Sources */,
+				2EF5233ECD28B4903522BF72FF0A98EC /* NSLayoutConstraint+PureLayout.m in Sources */,
+				7C9DD1C96B95B9B95EF91CD6304A7A04 /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8CFF95BDB6125B39E8E19A6DAAE7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B047A247F5267D98341537798378303C /* Pods-AVPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02895914E50B0D6262C2593ADA28F80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYAVPlayer;
+			target = CBB7F126C765A3D49C246BBD5F91F949 /* SYAVPlayer */;
+			targetProxy = CFB47D617F55D84020B6753C60E3FB33 /* PBXContainerItemProxy */;
+		};
+		348205CEF66E3D4B2F7A84B12E716A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 0B6A264B759143E1E9714F91B2467C89 /* PureLayout */;
+			targetProxy = 3815D860EB864619977A2CE1561A84FD /* PBXContainerItemProxy */;
+		};
+		3B0736571A5CDEA70F304B7E3657EC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 0B6A264B759143E1E9714F91B2467C89 /* PureLayout */;
+			targetProxy = F8C8EE2940936B486BDA5C4F6FEC602D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		21F5DBD797B66AD3C72D4CDDBFCB1E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D566FFA0B24CE7062066E30D53CBAB /* SYAVPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SYAVPlayer/SYAVPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SYAVPlayer;
+				PRODUCT_NAME = SYAVPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F501676B234E74D07D2F17D741E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934CA2A705D7C09B5E2CFEED5B688869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF89D30541460A47A6B3C146A93467A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D566FFA0B24CE7062066E30D53CBAB /* SYAVPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SYAVPlayer/SYAVPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SYAVPlayer;
+				PRODUCT_NAME = SYAVPlayer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E18C48DDD1485B9DD55F5C935C0EFF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD7EEFB6B401DAAC9A087363B604FD8 /* Pods-AVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F58508CF256E98B8ECC73C457F37ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E246493AC4B3D1A947F93E0D837821D2 /* Pods-AVPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7E2383D7D05900B040AE620622A005 /* Build configuration list for PBXNativeTarget "Pods-AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18C48DDD1485B9DD55F5C935C0EFF4D /* Debug */,
+				F58508CF256E98B8ECC73C457F37ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAE291F493EE5379FFE6850FD38D0F4 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F501676B234E74D07D2F17D741E345 /* Debug */,
+				934CA2A705D7C09B5E2CFEED5B688869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5445161A4BFAB6771151C6804A8F3EA /* Build configuration list for PBXNativeTarget "SYAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF89D30541460A47A6B3C146A93467A3 /* Debug */,
+				21F5DBD797B66AD3C72D4CDDBFCB1E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

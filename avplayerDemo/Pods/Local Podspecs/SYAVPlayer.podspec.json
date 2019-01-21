@@ -1,0 +1,29 @@
+{
+  "name": "SYAVPlayer",
+  "version": "1.0.0",
+  "summary": "A short description of SYAVPlayer.",
+  "homepage": "https://github.com/syhouse/AVPlayer",
+  "license": "MIT",
+  "authors": {
+    "syhouse": "shiyaohouse@163.com"
+  },
+  "source": {
+    "git": "https://github.com/syhouse/AVPlayer.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "SYAVPlayer/*.{h,m}",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "PureLayout": [
+
+    ]
+  }
+}
